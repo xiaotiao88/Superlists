@@ -1,0 +1,8 @@
+1501831459970	geckodriver	INFO	Listening on 127.0.0.1:60722
+1501831462020	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.Kxg7WNli8kMN
+1501831462030	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1501831462140	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60729
+1501831465705	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1501831470590	Marionette	INFO	Listening on port 60729
+1501831471572	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501831632307	Marionette	INFO	Ceased listening
