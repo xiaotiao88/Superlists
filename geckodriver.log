@@ -38,3 +38,71 @@
 1501836530946	Marionette	INFO	Listening on port 61737
 1501836531459	Marionette	WARN	TLS certificate errors will be ignored for this session
 1501836559579	Marionette	INFO	Ceased listening
+1501837781934	geckodriver	INFO	Listening on 127.0.0.1:62086
+1501837784004	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.Hbi243tXa5i2
+1501837784034	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1501837784114	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62094
+1501837787390	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1501837791486	Marionette	INFO	Listening on port 62094
+1501837792299	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501837843335	Marionette	INFO	Ceased listening
+1501838238421	geckodriver	INFO	Listening on 127.0.0.1:62339
+1501838240471	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.E6flzFMVGBO1
+1501838240481	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1501838240591	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62345
+1501838243958	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1501838248070	Marionette	INFO	Listening on port 62345
+1501838248861	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501838269347	Marionette	INFO	Ceased listening
+1502067866749	geckodriver	INFO	Listening on 127.0.0.1:49957
+1502067868871	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.uOoKDuJSsH29
+1502067868871	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1502067869105	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49968
+1502067874835	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1502067879038	Marionette	INFO	Listening on port 49968
+1502067879548	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502067939092	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1502067939993	Marionette	INFO	Ceased listening
+1502067951274	geckodriver	INFO	Listening on 127.0.0.1:50006
+1502067953349	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.uokMHGhhiTqb
+1502067953364	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1502067953458	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50013
+1502067954521	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1502067958569	Marionette	INFO	Listening on port 50013
+1502067959042	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502068159683	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1502068160458	Marionette	INFO	Ceased listening
+a\Local\Temp\rust_mozprofile.g303Iieigt3K
+1502068011744	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1502068011807	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50044
+1502068012838	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1502068016775	Marionette	INFO	Listening on port 50044
+1502068017297	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502068159701	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1502068160387	Marionette	INFO	Ceased listening
+1502068842277	geckodriver	INFO	Listening on 127.0.0.1:50474
+1502068844523	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.Nnnhe5I0fNMh
+1502068844523	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1502068844695	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50480
+1502068858625	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1502068867972	Marionette	INFO	Listening on port 50480
+1502068870220	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502068960979	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1502068961521	Marionette	INFO	Ceased listening
+1502069734601	geckodriver	INFO	Listening on 127.0.0.1:51624
+1502069736831	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502069747458	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 < startup()@resource://gre/modules/AddonManager.jsm:837 < startup()@resource://gre/modules/AddonManager.jsm:3145 < observe()@resource://gre/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/components/SanityTest.js, line 284: NS_ERROR_FILE_ACCESS_DENIED: Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIPrefService.savePrefFile]
+1502069754680	Marionette	INFO	Listening on port 51634
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2572: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1502069755955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502069758887	Marionette	INFO	New connections will no longer be accepted
+1502069894632	geckodriver	INFO	Listening on 127.0.0.1:51688
+1502069896682	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502069900051	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 < startup()@resource://gre/modules/AddonManager.jsm:837 < startup()@resource://gre/modules/AddonManager.jsm:3145 < observe()@resource://gre/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1502069906023	Marionette	INFO	Listening on port 51694
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2572: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1502069907194	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502069908622	Marionette	INFO	New connections will no longer be accepted
