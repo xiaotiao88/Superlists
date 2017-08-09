@@ -48,7 +48,7 @@ class NewVisitorTest(LiveServerTestCase):
         # 她按回车键后，被带到了一个新URL
         # 这个页面的待办事项清单中显示了“1：Buy peacock feathers”
         inputbox.send_keys(Keys.ENTER)
-        # time.sleep(3)        # 防止网速过慢，数据不能及时提交导致程序报错
+        time.sleep(3)        # 防止网速过慢，数据不能及时提交导致程序报错
         edith_list_url=self.browser.current_url
         self.assertRegex(edith_list_url,'/lists/.+')
         self.check_for_row_in_list_table('1:Buy peacock feathers')
@@ -90,6 +90,7 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox=self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('Buy milk')
         inputbox.send_keys(Keys.ENTER)
+        time.sleep(3)       # 防止网速过慢，数据不能及时提交导致程序报错
 
 
         # 弗朗西斯获得了他的唯一URL
